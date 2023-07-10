@@ -1,0 +1,12 @@
+
+platform :ios, '11.0'
+
+target 'MonitorKit_Example' do
+  pod 'MonitorKit', :path => '../'
+
+  target 'MonitorKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,23 @@
+PODS:
+  - MonitorKit (1.0.0):
+    - PLCrashReporter
+  - PLCrashReporter (1.11.1)
+
+DEPENDENCIES:
+  - MonitorKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PLCrashReporter
+
+EXTERNAL SOURCES:
+  MonitorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MonitorKit: 52f6c408e9861f9c051e053a921c0ba48f93ae4b
+  PLCrashReporter: 5d2d3967afe0efad61b3048d617e2199a5d1b787
+
+PODFILE CHECKSUM: a988b8e3642ab17abad681ee8c3de67633174199
+
+COCOAPODS: 1.11.3
